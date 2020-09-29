@@ -14,21 +14,30 @@ p, h1, h2, li div {
     font-family: Montserrat, sans-serif;
 }
 
+#title {
+    position: absolute;
+    left: 320px;
+    color: white;
+    font-size: 22px;
+}
+
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     margin: auto;
+    margin-right: 320px;
     font-family: Montserrat, sans-serif;
     background-color: #1C2F35; 
-    width: 70%;
-    height: 50px;
+    width: 50%;
+    height: 70px;
 }
 
 .nav_links {
     display: flex;
-    justify-content: space-around;
-    width: 60%;
+    justify-content: space-between;
+    padding-left:20px;
+    width: 70%;
 }
 
 .nav_links li{
@@ -74,7 +83,25 @@ nav {
     width: 14%;
 }
 
-#bar {
+#bar1 {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+
+#bar2 {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+
+#bar3 {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+
+#bar4 {
     width: 70%;
     height: 500px;
     margin: auto;
@@ -199,7 +226,17 @@ nav {
     width: 40%;
 }
 
+.music {
+    color: #176575;
+}
 
+.sports {
+    color: #176575;
+}
+
+.reading {
+    color: #176575;
+}
 
 .fourth_section {
     background-color: white;
@@ -208,16 +245,14 @@ nav {
 .travel {
     display: flex;
     justify-content: center;
-    padding:20px;
+
 }
 
 .travel img {
     width: 400px;
     height: 260px;
-    margin: 20px;
+    margin: 40px 5px;
     border-radius: 5px;
-
-
 }
 
 .ulsocial {
