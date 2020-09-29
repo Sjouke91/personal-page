@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main  {
+background-color: #1C2F35;
+}
+
+p, h1, h2, li {
+    font-family: Montserrat, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    font-family: Montserrat, sans-serif;
+    background-color: #1C2F35; 
+    width: 70%;
+    height: 50px;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.nav_links li{
+    list-style: none;
+}
+
+.nav_links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.texture {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    background-color:rgb(14, 24, 27);
+    height: 10px;
+    width: 14%;
+}
+.two {
+    background-color: #A31E23;
+    height: 10px;
+    width: 14%;
+}
+.three {
+    background-color: #F5845F;
+    height: 10px;
+    width: 14%;
+}
+.four {
+    background-color: #F89E65;
+    height: 10px;
+    width: 14%;
+}
+.five {
+    background-color: #F6B267;
+    height: 10px;
+    width: 14%;
+}
+
+#bar {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+
+.first_section {
+    background-color: rgb(238, 244, 247);
+}
+
+#text {
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+#photo {
+    height: 500px;
+    position: absolute;
+    left: 1200px;
+    bottom: 392px;
+}
+
+.hi {
+    margin-left: 80px;
+    padding-top: 50px;
+
+}
+
+.personal_info {
+    color:  #1C2F35;
+    padding: 100px;
+    padding-left:120px;
+    font-size: 20px;
+}
+
+.h2color {
+    color: #A31E23;
+}
+
+.h3color {
+    color: rgb(30, 103, 163);
+}
+
+#joe {
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+.pers {
+    list-style-type: circle;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-weight: lighter;
+    line-height: 50px;
+}
+
+
+
+
+
+.second_section {
+    background-color: white;
+
+}
+
+.third_section {
+    background-color: rgb(238, 244, 247);
+}
+
+.fourth_section {
+    background-color: white;
+}
