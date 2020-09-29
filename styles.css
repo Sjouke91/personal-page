@@ -10,7 +10,7 @@ main  {
 background-color: #1C2F35;
 }
 
-p, h1, h2, li {
+p, h1, h2, li div {
     font-family: Montserrat, sans-serif;
 }
 
@@ -125,6 +125,7 @@ nav {
 }
 
 .pers {
+
     list-style-type: circle;
     font-size: 20px;
     padding-left: 60px;
@@ -133,12 +134,23 @@ nav {
     line-height: 50px;
 }
 
-
-
-
-
 .second_section {
     background-color: white;
+}
+
+.second {
+    color:  #1C2F35;
+    padding: 120px;
+    padding-left:120px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    align-items: center;
+}
+
+.second h2 {
+    font-size: 40px;
+    padding-bottom: 40px;
 
 }
 
@@ -146,6 +158,83 @@ nav {
     background-color: rgb(238, 244, 247);
 }
 
+.logos {
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color:  #1C2F35;
+    padding: 50px;
+    padding-left:120px;
+    padding-right: 120px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.logos h2 {
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.logos p {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.h1_2 {
+    color:  #1C2F35;
+    padding-left:120px;
+    font-size: 30px;
+    padding-top: 50px;
+
+}
+
+#bike {
+    width: 50%;
+}
+#guitar {
+    width: 40%;
+}
+#books {
+    width: 40%;
+}
+
+
+
 .fourth_section {
     background-color: white;
+}
+
+.travel {
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+
+.travel img {
+    width: 400px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+
+
+}
+
+.ulsocial {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    size: 20%;
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 30px;
+}
+
+.social img {
+    height: 30px;
+    color: gray;
 }
