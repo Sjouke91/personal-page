@@ -14,34 +14,34 @@ p, h1, h2, li div {
     font-family: Montserrat, sans-serif;
 }
 
-#title {
-    position: absolute;
-    left: 320px;
-    color: white;
-    font-size: 22px;
-}
 
 nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: auto;
-    margin-right: 320px;
     font-family: Montserrat, sans-serif;
     background-color: #1C2F35; 
-    width: 50%;
+    width: 1344px;
     height: 70px;
+    
 }
 
 .nav_links {
     display: flex;
-    justify-content: space-between;
-    padding-left:20px;
-    width: 70%;
+    justify-content: space-between; 
+    width: 45%;
+
 }
 
 .nav_links li{
     list-style: none;
+}
+
+#title {
+    position: relative;
+    left: -450px;
+    color: white;
+    font-size: 22px;
 }
 
 .nav_links a{
@@ -55,54 +55,58 @@ nav {
 .texture {
     display: flex;
     justify-content: center;
+    width: 1344px;
+    margin: auto;
 }
 
 .one {
     background-color:rgb(14, 24, 27);
     height: 10px;
-    width: 14%;
+    width: 20%;
 }
 .two {
     background-color: #A31E23;
     height: 10px;
-    width: 14%;
+    width: 20%;
 }
 .three {
     background-color: #F5845F;
     height: 10px;
-    width: 14%;
+    width: 20%;
 }
 .four {
     background-color: #F89E65;
     height: 10px;
-    width: 14%;
+    width: 20%;
 }
 .five {
     background-color: #F6B267;
     height: 10px;
-    width: 14%;
+    width: 20%;
 }
 
 #bar1 {
-    width: 70%;
+    width: 1344px;
     height: 500px;
     margin: auto;
+    display: flex;
+    justify-content: flex-start;
 }
 
 #bar2 {
-    width: 70%;
+    width: 1344px;
     height: 500px;
     margin: auto;
 }
 
 #bar3 {
-    width: 70%;
+    width: 1344px;
     height: 500px;
     margin: auto;
 }
 
 #bar4 {
-    width: 70%;
+    width: 1344px;
     height: 500px;
     margin: auto;
 }
@@ -120,9 +124,9 @@ nav {
 
 #photo {
     height: 500px;
-    position: absolute;
-    left: 1200px;
-    bottom: 421px;
+    position: relative;
+    left: 10%;
+
 }
 
 .hi {
